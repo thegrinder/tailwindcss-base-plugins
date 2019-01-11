@@ -1,0 +1,27 @@
+{
+  "name": "tailwindcss-base-plugins",
+  "version": "1.0.0",
+  "description": "Set of helpful tailwindcss plugins",
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "tailwindcss-plugin",
+  ],
+  "homepage": "https://github.com/thegrinder/tailwindcss-base-plugins",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/thegrinder/tailwindcss-base-plugins.git"
+  },
+  "main": "index.js",
+  "scripts": {
+    "build:dev": "node_modules/tailwindcss/lib/cli.js build ./styles.css -c ./tailwind.js -o ./dist/styles.css"
+  },
+  "author": "Pawel Szczepkowski",
+  "license": "MIT",
+  "devDependencies": {
+    "tailwindcss": "^0.7.3"
+  },
+  "postcss": {
+    "tailwindcss": "./tailwind.js"
+  }
+}
