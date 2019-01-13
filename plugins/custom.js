@@ -14,11 +14,11 @@ const customPlugin = ({ addUtilities }) => {
       margin: '0',
       boxSizing: 'border-box',
     },
-    'body .list': {
+    '.list': {
       listStyleType: 'none',
       padding: 0,
     },
-    'body .truncated': {
+    '.truncated': {
       whiteSpace: 'no-wrap',
       textOverflow: 'ellipsis',
       overflow: 'hidden',
