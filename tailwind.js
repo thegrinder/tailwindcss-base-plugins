@@ -76,6 +76,7 @@ module.exports = {
     screen: '100vh',
   },
   spacing: {
+    auto: 'auto',
     0: '0',
     1: '0.25rem',
     2: '0.5rem',
@@ -83,6 +84,7 @@ module.exports = {
     4: '1rem',
     6: '1.5rem',
     8: '2rem',
+    12: '3rem',
   },
   zIndex: {
     0: 0,
