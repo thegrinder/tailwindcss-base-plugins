@@ -3,10 +3,7 @@ const spacingPlugin = ({ addUtilities, config }) => {
   const marginUtilities = Object.keys(spacingConfig).map((spacingKey) => {
     return {
       [`.ma-${spacingKey}`]: {
-        marginTop: spacingConfig[spacingKey],
-        marginRight: spacingConfig[spacingKey],
-        marginBottom: spacingConfig[spacingKey],
-        marginLeft: spacingConfig[spacingKey],
+        margin: spacingConfig[spacingKey],
       },
       [`.mv-${spacingKey}`]: {
         marginTop: spacingConfig[spacingKey],
@@ -43,10 +40,7 @@ const spacingPlugin = ({ addUtilities, config }) => {
   const paddingUtilities = Object.keys(spacingConfig).map((spacingKey) => {
     return {
       [`.pa-${spacingKey}`]: {
-        paddingTop: spacingConfig[spacingKey],
-        paddingRight: spacingConfig[spacingKey],
-        paddingBottom: spacingConfig[spacingKey],
-        paddingLeft: spacingConfig[spacingKey],
+        padding: spacingConfig[spacingKey],
       },
       [`.pv-${spacingKey}`]: {
         paddingTop: spacingConfig[spacingKey],
