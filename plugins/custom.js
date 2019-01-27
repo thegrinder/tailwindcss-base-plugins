@@ -19,7 +19,7 @@ const customPlugin = ({ addUtilities }) => {
       padding: 0,
     },
     '.truncated': {
-      whiteSpace: 'no-wrap',
+      whiteSpace: 'nowrap',
       textOverflow: 'ellipsis',
       overflow: 'hidden',
       maxWidth: '100%',
