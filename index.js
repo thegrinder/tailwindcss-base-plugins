@@ -9,7 +9,7 @@ const fontWeight = require('./plugins/font-weight');
 const opacity = require('./plugins/opacity');
 const textAlign = require('./plugins/text-align');
 const verticalAlign = require('./plugins/vertical-align');
-const leading = require('./plugins/leading');
+const lineHeight = require('./plugins/line-height');
 
 module.exports = [
   flexGrid,
@@ -23,5 +23,5 @@ module.exports = [
   opacity,
   textAlign,
   verticalAlign,
-  leading,
+  lineHeight,
 ];

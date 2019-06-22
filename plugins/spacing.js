@@ -1,5 +1,5 @@
 const spacingPlugin = ({ addUtilities, config }) => {
-  const spacingConfig = config('spacing');
+  const spacingConfig = config('theme.spacing');
   const marginUtilities = Object.keys(spacingConfig).map((spacingKey) => {
     return {
       [`.ma-${spacingKey}`]: {

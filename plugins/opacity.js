@@ -1,5 +1,5 @@
 const opacityPlugin = ({ addUtilities, config }) => {
-  const opacityConfig = config('opacity');
+  const opacityConfig = config('theme.opacity');
   const utilities = Object.keys(opacityConfig)
     .map(opacityKey => ({
       [`.o-${opacityKey}`]: { opacity: opacityConfig[opacityKey] },
