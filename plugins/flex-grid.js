@@ -1,7 +1,7 @@
 const getIndices = n => Array.from(Array(n).keys());
 
-const flexGridPlugin = ({ addUtilities }) => {
-  const columns = 12;
+const flexGridPlugin = ({ addUtilities, config }) => {
+  const columns = config('theme.grid.columns');
   const utilities = [
     {
       '.col': {

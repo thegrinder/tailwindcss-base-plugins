@@ -2,6 +2,9 @@ const plugins = require('./');
 
 module.exports = {
   theme: {
+    grid: {
+      columns: 12,
+    },
     screens: {
       sm: '576px',
       md: '768px',
@@ -120,6 +123,7 @@ module.exports = {
     zIndex: [],
   },
   corePlugins: [
+    'display',
     'flexDirection',
     'flexWrap',
     'alignItems',
