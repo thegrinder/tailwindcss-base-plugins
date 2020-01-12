@@ -69,7 +69,7 @@ const spacingPlugin = ({ addUtilities, config }) => {
   });
 
   addUtilities([ ...marginUtilities, ...paddingUtilities ], ['responsive']);
-  addUtilities(negativeMarginUtilities);
+  addUtilities(negativeMarginUtilities, ['responsive']);
 };
 
 module.exports = spacingPlugin;
