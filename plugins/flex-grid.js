@@ -33,7 +33,6 @@ const flexGridPlugin = ({ addUtilities, config }) => {
   addUtilities([
     {
       [commaSeperatedColClasses]: {
-        position: 'relative',
         width: '100%',
         minHeight: '1px',
       },
