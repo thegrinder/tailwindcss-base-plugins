@@ -19,7 +19,7 @@
   "author": "Pawel Szczepkowski",
   "license": "MIT",
   "devDependencies": {
-    "tailwindcss": "^1.1.4"
+    "tailwindcss": "^1.5.1"
   },
   "postcss": {
     "tailwindcss": "./tailwind.js"
